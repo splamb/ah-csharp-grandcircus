@@ -20,7 +20,9 @@ jobs:
         dotnet-version: 5.0.x
       
     - name: Run
-      run: dotnet run
+      working-directory: "20210812"
+      run: |
+        dotnet run
       
       
       
